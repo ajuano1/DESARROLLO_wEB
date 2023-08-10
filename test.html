@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilotest.css">
+</head>
+<body>
+    <h1>Responda el cuestionario</h1>
+    <h3>Cuenta con 30 segundos</h3>
+    <form id="PregForm">
+        <div class="pregunta">
+            <label for="P1">¿A quién le pertenece la teoría de la relatividad?:</label>
+            <input type="text" id="P1" required minlength="5">
+        </div>
+        <div class="pregunta">
+            <label for="P2">¿Quién es el mejor portero de la historia?:</label>
+            <input type="text" id="P2" required minlength="5">
+        </div>
+        <div class="pregunta">
+            <label for="P3">¿Qué club de futbol es considerado el mejor del mundo del siglo XX?:</label>
+            <input type="text" id="P3" required minlength="5">
+        </div>
+        <div class="pregunta">
+            <label for="P4">¿Qué civilización invento el número 0?:</label>
+            <input type="text" id="P4" required minlength="5">
+        </div>
+        <div class="pregunta">
+            <label for="P5">¿En qué año se invento el baloncesto?:</label>
+            <input type="text" id="P5" required minlength="5">
+        </div>
+        <button type="submit" id="submitButton" disabled>Enviar</button>
+        <button type="button" id="startButton">Iniciar</button>
+    </form>
+    <div id="contRegresivo"></div>
+
+    <script src="testjs.js"></script>
+</body>
+</html>
